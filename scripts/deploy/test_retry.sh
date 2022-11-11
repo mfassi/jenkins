@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+echo "######"
+echo "$WORKSPACE"
+echo "#######"
 set -x
 set +e
 # test
