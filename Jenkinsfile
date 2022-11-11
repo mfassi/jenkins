@@ -47,7 +47,8 @@ pipeline {
                                     """
 
                                     sh """#!/bin/bash -xe
-                                    ls .
+                                    echo $WORKSPACE
+                                    echo \$WORKSPACE
                                     /bin/bash ../scripts/deploy/test_retry.sh
                                     """
                                 }
