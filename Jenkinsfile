@@ -47,6 +47,7 @@ pipeline {
                                     """
 
                                     sh """#!/bin/bash -xe
+                                    ls .
                                     /bin/bash ./scripts/deploy/test_retry.sh
                                     """
                                 }
